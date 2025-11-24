@@ -4,6 +4,9 @@ on:
     tags:
       - "v*-test"
 
+permissions:
+  contents: write 
+
 jobs:
   export_game:
     runs-on: ubuntu-latest
